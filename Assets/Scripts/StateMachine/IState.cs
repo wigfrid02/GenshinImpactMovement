@@ -4,18 +4,16 @@ using UnityEngine;
 
 namespace GenshinImpactMovementSystem
 {
-    public class IState : MonoBehaviour
+    public interface IState
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        public void Enter();
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+        public void Exit();
+
+        public void HandleInput();
+
+        public void Update();
+
+        public void PhysicsUpdate();
     }
 }
