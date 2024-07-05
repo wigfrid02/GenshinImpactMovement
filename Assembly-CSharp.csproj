@@ -60,21 +60,29 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\Stopping\PlayerStopData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\PlayerGroundedData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Moving\PlayerRunningState.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Data\Layers\PlayerLayerData.cs" />
     <Compile Include="Assets\Scripts\Data\Colliders\SlopeData.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Stopping\PlayerHardStoppingState.cs" />
     <Compile Include="Assets\InputActions\Characters\Player\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\StateMachine\IState.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\PlayerDashData.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Stopping\PlayerStoppingState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Moving\PlayerSprintingState.cs" />
     <Compile Include="Assets\Scripts\Data\Colliders\CapsuleColliderData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\States\PlayerStateReusableData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Moving\PlayerMovingState.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\Moving\PlayerSprintData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\PlayerMovementStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\PlayerGoundedState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\PlayerGoundedState.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\PlayerDashingState.cs" />
     <Compile Include="Assets\Scripts\Data\Colliders\DefaultColliderData.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraZoom.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\States\PlayerRotationData.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Stopping\PlayerMediumStoppingState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\PlayerMovementState.cs" />
     <Compile Include="Assets\Scripts\StateMachine\StateMachine.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\PlayerIdlingState.cs" />
@@ -83,6 +91,7 @@
     <Compile Include="Assets\Scripts\Character\Player\Utilities\Input\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\ScriptableObjects\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\Utilities\Colliders\CapsuleColliderUtility.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Stopping\PlayerLightStoppingState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\Moving\PlayerWalkData.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -3,100 +3,140 @@
   "WorkspaceRootPath": "C:\\D\\UnityLearning\\GenshinMovement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\data\\colliders\\slopedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\colliders\\slopedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\playermovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\playermovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\utilities\\colliders\\capsulecolliderutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\colliders\\capsulecolliderutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playerstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playerstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playergoundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playergoundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\data\\colliders\\defaultcolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\colliders\\defaultcolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playerdashingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playerdashingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\data\\colliders\\capsulecolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\colliders\\capsulecolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playerhardstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playerhardstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playermovingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playerlightstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playerlightstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerrunningstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerrunningstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playeridlingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playeridlingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\playermovementstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\playermovementstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playermediumstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\stopping\\playermediumstoppingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\playergroundeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\playergroundeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\playerstatereusabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\playerstatereusabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\playerdashdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\playerdashdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\stopping\\playerstopdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\stopping\\playerstopdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playermovingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playermovingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\playermovementstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\playermovementstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playersprintingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playersprintingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\utilities\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\utilities\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerwalkingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerwalkingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playersprintdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playersprintdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\playerrotationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\playerrotationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerrundata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerrundata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\scriptableobjects\\playerso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\scriptableobjects\\playerso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\statemachine\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\data\\colliders\\slopedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\colliders\\slopedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\layers\\playerlayerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\layers\\playerlayerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\utilities\\colliders\\capsulecolliderutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\colliders\\capsulecolliderutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\data\\colliders\\defaultcolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\colliders\\defaultcolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\data\\colliders\\capsulecolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\colliders\\capsulecolliderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\utilities\\colliders\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\utilities\\colliders\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerrunningstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerrunningstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playersprintingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playersprintingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerwalkingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\moving\\playerwalkingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\playermovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\playermovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\scriptableobjects\\playerso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\scriptableobjects\\playerso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\states\\playerrotationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\playerrotationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\states\\playerstatereusabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\playerstatereusabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerwalkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerwalkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerwalkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerrundata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\moving\\playerrundata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\data\\states\\grounded\\playergroundeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\data\\states\\grounded\\playergroundeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playeridlingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\states\\grounded\\playeridlingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\statemachine\\movement\\playergoundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\statemachine\\movement\\playergoundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\statemachine\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\camera\\camerazoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|C:\\D\\UnityLearning\\GenshinMovement\\assets\\scripts\\camera\\camerazoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camerazoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|c:\\d\\unitylearning\\genshinmovement\\assets\\scripts\\character\\player\\utilities\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE649B3-991C-0139-7272-C400A9DB8B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\utilities\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerGoundedState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerGoundedState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,71 +151,201 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Player.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Player.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABwAAABIAAAA",
+              "Title": "PlayerGoundedState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerGoundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerGoundedState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerGoundedState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerGoundedState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:46:10.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB4AAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:17:06.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:32:42.585Z",
+              "WhenOpened": "2024-07-05T11:10:52.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DefaultColliderData.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Title": "PlayerDashingState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerDashingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerDashingState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerDashingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerDashingState.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:29:33.488Z",
+              "WhenOpened": "2024-07-05T13:20:02.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovementState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAANgAAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:46:28.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerStoppingState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerStoppingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerStoppingState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerStoppingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerStoppingState.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:12:11.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CapsuleColliderData.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvwsAAAA0AAAA",
+              "Title": "PlayerHardStoppingState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerHardStoppingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerHardStoppingState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerHardStoppingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerHardStoppingState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:21:08.708Z",
+              "WhenOpened": "2024-07-05T16:13:32.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PlayerLightStoppingState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerLightStoppingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerLightStoppingState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerLightStoppingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerLightStoppingState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:12:50.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerRunningState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:08:26.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerIdlingState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T10:21:52.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerMovementStateMachine.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:46:41.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerMediumStoppingState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerMediumStoppingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerMediumStoppingState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerMediumStoppingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Stopping\\PlayerMediumStoppingState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:13:21.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerGroundedData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:48:07.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerStateReusableData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:13:10.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:06:44.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerDashData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerDashData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerDashData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerDashData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerDashData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T13:25:31.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerStopData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Stopping\\PlayerStopData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Stopping\\PlayerStopData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Stopping\\PlayerStopData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Stopping\\PlayerStopData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:39:38.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "PlayerMovingState.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerMovingState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerMovingState.cs",
@@ -188,97 +358,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerMovementStateMachine.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerMovementStateMachine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:46:41.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerRunningState.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerRunningState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T14:08:26.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "PlayerSprintingState.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerSprintingState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerSprintingState.cs",
               "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerSprintingState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerSprintingState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T14:29:38.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:45:25.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "PlayerWalkingState.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerWalkingState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerWalkingState.cs",
               "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerWalkingState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\Moving\\PlayerWalkingState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T14:29:46.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NewBehaviourScript.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "PlayerSprintData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerSprintData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerSprintData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerSprintData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerSprintData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:15:49.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerMovementState.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\PlayerMovementState.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:46:28.256Z",
+              "WhenOpened": "2024-07-05T15:15:11.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PlayerSO.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T15:43:24.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "PlayerRotationData.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerRotationData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerRotationData.cs",
@@ -291,33 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerStateReusableData.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\PlayerStateReusableData.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T16:13:10.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PlayerWalkData.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T16:00:09.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "PlayerRunData.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerRunData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerRunData.cs",
@@ -330,33 +436,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlayerGroundedData.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\PlayerGroundedData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
+              "DocumentIndex": 22,
+              "Title": "PlayerSO.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\ScriptableObjects\\PlayerSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T15:48:07.724Z",
+              "WhenOpened": "2024-07-04T15:43:24.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PlayerIdlingState.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\States\\Grounded\\PlayerIdlingState.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAAFAAAA",
+              "DocumentIndex": 23,
+              "Title": "IState.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\IState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\IState.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\IState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\IState.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:21:52.945Z",
+              "WhenOpened": "2024-07-04T15:07:12.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Player.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Player.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwDUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:46:10.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SlopeData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\Colliders\\SlopeData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:32:42.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PlayerLayerData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\Layers\\PlayerLayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\Layers\\PlayerLayerData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\Layers\\PlayerLayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\Layers\\PlayerLayerData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T11:34:07.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities\\Colliders\\CapsuleColliderUtility.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB4AAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:17:06.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DefaultColliderData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\Colliders\\DefaultColliderData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:29:33.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CapsuleColliderData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\Colliders\\CapsuleColliderData.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvwsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:21:08.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities\\Colliders\\NewBehaviourScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:15:49.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlayerWalkData.cs",
+              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
+              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Data\\States\\Grounded\\Moving\\PlayerWalkData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:00:09.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "PlayerGoundedState.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerGoundedState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerGoundedState.cs",
@@ -364,38 +567,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\StateMachine\\Movement\\PlayerGoundedState.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAcwB0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T15:18:27.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T15:18:27.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StateMachine.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\StateMachine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\StateMachine.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\StateMachine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\StateMachine.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T15:06:44.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IState.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\IState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\IState.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\StateMachine\\IState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\IState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T15:07:12.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "CameraZoom.cs",
               "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Camera\\CameraZoom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraZoom.cs",
@@ -403,21 +579,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraZoom.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAABcAAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:10:20.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PlayerInput.cs",
-              "DocumentMoniker": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
-              "ToolTip": "C:\\D\\UnityLearning\\GenshinMovement\\Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\Utilities\\Input\\PlayerInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:45:25.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T15:10:20.256Z"
             }
           ]
         }

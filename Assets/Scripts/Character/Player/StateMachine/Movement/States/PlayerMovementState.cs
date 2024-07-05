@@ -54,6 +54,18 @@ namespace GenshinImpactMovementSystem
             Move();
         }
 
+        public virtual void OnAnimationEnterEvent()
+        {
+        }
+
+        public virtual void OnAnimationExitEvent()
+        {
+        }
+
+        public virtual void OnAnimationTransitionEvent()
+        {
+        }
+
         #region Main Methods
         private void ReadMovementInput()
         {
@@ -128,7 +140,7 @@ namespace GenshinImpactMovementSystem
         }
         protected float GetMovementSpeed()
         {
-            return movementData.BaseSpeed * stateMachine.ReusableData.MovementSpeedModifier;
+            return movementData.BaseSpeed * stateMachine.ReusableData.MovementSpeedModifier * stateMachine.ReusableData.MovementOnSlopeSpeedModifier;
         }
         protected Vector3 GetPlayerHorizontalVelocity()
         {
@@ -138,6 +150,12 @@ namespace GenshinImpactMovementSystem
 
             return playerHorizontalVelocity;
         }
+
+        protected Vector3 GetPlayerVerticalVelocity()
+        {
+            return new Vector3(0f, stateMachine.Player.Rigidbody.velocity.y, 0f);
+        }
+
         protected void RotateTowardsTargetRotation()
         {
             float currentYAngle = stateMachine.Player.Rigidbody.rotation.eulerAngles.y;
@@ -190,6 +208,22 @@ namespace GenshinImpactMovementSystem
         protected virtual void RemoveInputActionsCallBacks()
         {
             stateMachine.Player.Input.PlayerActions.WalkToggle.started -= OnWalkToggleStarted;
+        }
+
+        protected virtual void DecelerateHorizontally()
+        {
+            Vector3 playerHorizontalVelocity = GetPlayerHorizontalVelocity();
+
+            stateMachine.Player.Rigidbody.AddForce(-playerHorizontalVelocity * stateMachine.ReusableData.MovementDecelerationForce, ForceMode.Acceleration);
+        }
+
+        protected bool IsMovingHorizontally(float minimumMagnitude = 0.1f)
+        {
+            Vector3 playerHorizontalVelocity = GetPlayerHorizontalVelocity();
+
+            Vector2 playerHorizontalMovement = new Vector2(playerHorizontalVelocity.x, playerHorizontalVelocity.z);
+
+            return playerHorizontalMovement.magnitude > minimumMagnitude;
         }
         #endregion
 

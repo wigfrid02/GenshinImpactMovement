@@ -4064,6 +4064,12 @@ MonoBehaviour:
       <Radius>k__BackingField: 0.2
     <SlopeData>k__BackingField:
       <StepHeightPercentage>k__BackingField: 0.25
+      <FloatRayDistance>k__BackingField: 2
+      <StepReachForce>k__BackingField: 25
+  <LayerData>k__BackingField:
+    <GroundLayer>k__BackingField:
+      serializedVersion: 2
+      m_Bits: 64
 --- !u!136 &1411237915
 CapsuleCollider:
   m_ObjectHideFlags: 0
