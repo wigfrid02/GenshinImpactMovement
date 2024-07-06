@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,8 @@ namespace GenshinImpactMovementSystem
         private float startTime;
 
         private bool keepSprinting;
+
+        private bool shouldResetSprintState;
         public PlayerSprintingState(PlayerMovementStateMachine playermovementstateMachine) : base(playermovementstateMachine)
         {
             sprintData = movementData.SprintData;
@@ -25,6 +28,10 @@ namespace GenshinImpactMovementSystem
 
             stateMachine.ReusableData.MovementSpeedModifier = sprintData.SpeedModifier;
 
+            stateMachine.ReusableData.CurrentJumpForce = airborneData.JumpData.StrongForce;
+
+            shouldResetSprintState = true;
+
             startTime = Time.time;
         }
 
@@ -32,7 +39,12 @@ namespace GenshinImpactMovementSystem
         {
             base.Exit();
 
-            keepSprinting = false;
+            if ( shouldResetSprintState )
+            {
+                keepSprinting = false;
+
+                stateMachine.ReusableData.ShouldSprint = false;
+            }
         }
 
         public override void Update()
@@ -81,6 +93,13 @@ namespace GenshinImpactMovementSystem
 
             stateMachine.Player.Input.PlayerActions.Sprint.performed -= OnSprintPerformed;
         }
+
+        protected override void OnFall()
+        {
+            shouldResetSprintState = false;
+
+            base.OnFall();
+        }
         #endregion
 
         #region Input Methods
@@ -88,9 +107,19 @@ namespace GenshinImpactMovementSystem
         {
             stateMachine.ChangeState(stateMachine.HardStoppingState);
         }
+
+        protected override void OnJumpStarted(InputAction.CallbackContext context)
+        {
+            shouldResetSprintState = false;
+
+            base.OnJumpStarted(context);
+        }
+
         private void OnSprintPerformed(InputAction.CallbackContext context)
         {
             keepSprinting = true;
+
+            stateMachine.ReusableData.ShouldSprint = true;
         }
         #endregion
     }
