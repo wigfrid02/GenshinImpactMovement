@@ -1,9 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.WSA;
 
 namespace GenshinImpactMovementSystem
 {
@@ -16,6 +12,14 @@ namespace GenshinImpactMovementSystem
         }
 
         #region IState Methods
+
+        public override void Enter()
+        {
+            base.Enter();
+
+            UpdateShouldSprintState();
+        }
+
         public override void PhysicsUpdate()
         {
             base.PhysicsUpdate();
@@ -25,6 +29,21 @@ namespace GenshinImpactMovementSystem
         #endregion
 
         #region Main Methods
+
+        private void UpdateShouldSprintState()
+        {
+            if (!stateMachine.ReusableData.ShouldSprint)
+            {
+                return;
+            }
+
+            if (stateMachine.ReusableData.MovementInput != Vector2.zero)
+            {
+                return;
+            }
+
+            stateMachine.ReusableData.ShouldSprint = false;
+        }
         private void Float()
         {
             Vector3 capsuleColliderCenterInWorldSpace = stateMachine.Player.ColliderUtility.CapsuleColliderData.Collider.bounds.center;
@@ -65,6 +84,17 @@ namespace GenshinImpactMovementSystem
 
             return slopeSpeedModifier;
         }
+
+        private bool IsThereGroundUnderneath()
+        {
+            BoxCollider groundCheckCollider = stateMachine.Player.ColliderUtility.TriggerColliderData.GroundCheckCollider;
+
+            Vector3 groundColliderCenterInWorldSpace = groundCheckCollider.bounds.center;
+
+            Collider[] overlappedGroundColliders = Physics.OverlapBox(groundColliderCenterInWorldSpace, stateMachine.Player.ColliderUtility.TriggerColliderData.GroundCheckCollider.bounds.extents,groundCheckCollider.transform.rotation,stateMachine.Player.LayerData.GroundLayer, QueryTriggerInteraction.Ignore);
+        
+            return overlappedGroundColliders.Length > 0;
+        }
         #endregion
 
         #region Reusable Methods
@@ -75,6 +105,8 @@ namespace GenshinImpactMovementSystem
             stateMachine.Player.Input.PlayerActions.Movement.canceled += OnMovementCanceled;
 
             stateMachine.Player.Input.PlayerActions.Dash.started += OnDashStarted;
+
+            stateMachine.Player.Input.PlayerActions.Jump.started += OnJumpStarted;
         }
 
         protected override void RemoveInputActionsCallBacks()
@@ -82,9 +114,20 @@ namespace GenshinImpactMovementSystem
             base.RemoveInputActionsCallBacks();
 
             stateMachine.Player.Input.PlayerActions.Movement.canceled -= OnMovementCanceled;
+
+            stateMachine.Player.Input.PlayerActions.Dash.started -= OnDashStarted;
+
+            stateMachine.Player.Input.PlayerActions.Jump.started -= OnJumpStarted;
         }
         protected virtual void OnMove()
         {
+            if (stateMachine.ReusableData.ShouldSprint)
+            {
+                stateMachine.ChangeState(stateMachine.SprintingState);
+
+                return;
+            }
+
             if (stateMachine.ReusableData.ShouldWalk)
             {
                 stateMachine.ChangeState(stateMachine.WalkingState);
@@ -93,6 +136,30 @@ namespace GenshinImpactMovementSystem
             }
 
             stateMachine.ChangeState(stateMachine.RunningState);
+        }
+
+        protected override void OnContactWithGroundExited(Collider collider)
+        {
+            base.OnContactWithGroundExited(collider);
+
+            if (IsThereGroundUnderneath())
+            {
+                return;
+            }
+
+            Vector3 capsuleColliderCenterInWorldSpace = stateMachine.Player.ColliderUtility.CapsuleColliderData.Collider.bounds.center;
+
+            Ray downwardsRayFromCapsuleBottom = new Ray(capsuleColliderCenterInWorldSpace - stateMachine.Player.ColliderUtility.CapsuleColliderData.ColliderVerticalExtents, Vector3.down);
+
+            if (!Physics.Raycast(downwardsRayFromCapsuleBottom, out _, movementData.GroundToFallRayDistance, stateMachine.Player.LayerData.GroundLayer, QueryTriggerInteraction.Ignore))
+            {
+                OnFall();
+            }
+        }
+
+        protected virtual void OnFall()
+        {
+            stateMachine.ChangeState(stateMachine.FallingState);
         }
         #endregion
 
@@ -105,6 +172,11 @@ namespace GenshinImpactMovementSystem
         protected virtual void OnDashStarted(InputAction.CallbackContext context)
         {
             stateMachine.ChangeState(stateMachine.DashingState);
+        }
+
+        protected virtual void OnJumpStarted(InputAction.CallbackContext context)
+        {
+            stateMachine.ChangeState(stateMachine.JumpingState);
         }
         #endregion
     }
