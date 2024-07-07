@@ -17,7 +17,18 @@ namespace GenshinImpactMovementSystem
         {
             base.Enter();
 
+            StartAnimation(stateMachine.Player.AnimationData.GroundedParameterHash);
+
             UpdateShouldSprintState();
+
+            UpdateCameraRecenteringState(stateMachine.ReusableData.MovementInput);
+        }
+
+        public override void Exit()
+        {
+            base.Exit();
+
+            StopAnimation(stateMachine.Player.AnimationData.GroundedParameterHash);
         }
 
         public override void PhysicsUpdate()
@@ -80,7 +91,12 @@ namespace GenshinImpactMovementSystem
         {
             float slopeSpeedModifier = movementData.SlopeSpeedAngles.Evaluate(angle);
 
-            stateMachine.ReusableData.MovementOnSlopeSpeedModifier = slopeSpeedModifier;
+            if (stateMachine.ReusableData.MovementOnSlopeSpeedModifier != slopeSpeedModifier)
+            {
+                stateMachine.ReusableData.MovementOnSlopeSpeedModifier = slopeSpeedModifier;
+
+                UpdateCameraRecenteringState(stateMachine.ReusableData.MovementInput);
+            }
 
             return slopeSpeedModifier;
         }
@@ -91,7 +107,7 @@ namespace GenshinImpactMovementSystem
 
             Vector3 groundColliderCenterInWorldSpace = groundCheckCollider.bounds.center;
 
-            Collider[] overlappedGroundColliders = Physics.OverlapBox(groundColliderCenterInWorldSpace, stateMachine.Player.ColliderUtility.TriggerColliderData.GroundCheckCollider.bounds.extents,groundCheckCollider.transform.rotation,stateMachine.Player.LayerData.GroundLayer, QueryTriggerInteraction.Ignore);
+            Collider[] overlappedGroundColliders = Physics.OverlapBox(groundColliderCenterInWorldSpace, stateMachine.Player.ColliderUtility.TriggerColliderData.GroundCheckColliderExtents,groundCheckCollider.transform.rotation,stateMachine.Player.LayerData.GroundLayer, QueryTriggerInteraction.Ignore);
         
             return overlappedGroundColliders.Length > 0;
         }
@@ -102,8 +118,6 @@ namespace GenshinImpactMovementSystem
         {
             base.AddInputActionsCallBacks();
 
-            stateMachine.Player.Input.PlayerActions.Movement.canceled += OnMovementCanceled;
-
             stateMachine.Player.Input.PlayerActions.Dash.started += OnDashStarted;
 
             stateMachine.Player.Input.PlayerActions.Jump.started += OnJumpStarted;
@@ -112,8 +126,6 @@ namespace GenshinImpactMovementSystem
         protected override void RemoveInputActionsCallBacks()
         {
             base.RemoveInputActionsCallBacks();
-
-            stateMachine.Player.Input.PlayerActions.Movement.canceled -= OnMovementCanceled;
 
             stateMachine.Player.Input.PlayerActions.Dash.started -= OnDashStarted;
 
@@ -164,10 +176,6 @@ namespace GenshinImpactMovementSystem
         #endregion
 
         #region Input Methods
-        protected virtual void OnMovementCanceled(InputAction.CallbackContext context)
-        {
-            stateMachine.ChangeState(stateMachine.IdlingState);
-        }
 
         protected virtual void OnDashStarted(InputAction.CallbackContext context)
         {

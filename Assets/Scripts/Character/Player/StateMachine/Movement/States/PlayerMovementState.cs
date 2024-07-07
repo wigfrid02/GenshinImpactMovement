@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.WSA;
 
 namespace GenshinImpactMovementSystem
 {
@@ -18,6 +19,8 @@ namespace GenshinImpactMovementSystem
 
             movementData = stateMachine.Player.Data.GroundedData;
             airborneData = stateMachine.Player.Data.AirborneData;
+
+            SetBaseCameraRecenteringData();
 
             InitializedData();
         }
@@ -98,7 +101,7 @@ namespace GenshinImpactMovementSystem
                 return;
             }
 
-            Vector3 movementDirection = GetInputMovementDirection();
+            Vector3 movementDirection = GetMovementInputDirection();
 
             float targetRotationYAngle = Rotate(movementDirection);
 
@@ -153,6 +156,21 @@ namespace GenshinImpactMovementSystem
         }
 
         #region Reusable Methods
+        protected void StartAnimation(int animationHash)
+        {
+            stateMachine.Player.Animator.SetBool(animationHash, true);
+        }
+
+        protected void StopAnimation(int animationHash)
+        {
+            stateMachine.Player.Animator.SetBool(animationHash, false);
+        }
+
+        protected void SetBaseCameraRecenteringData()
+        {
+            stateMachine.ReusableData.BackwardsCameraRecenteringData = movementData.BackwardsCameraRecenteringData;
+            stateMachine.ReusableData.SidewaysCameraRecenteringData = movementData.SidewaysCameraRecenteringData;
+        }
         protected void SetBaseRotationData()
         {
             stateMachine.ReusableData.RotationData = movementData.BaseRotationData;
@@ -181,13 +199,20 @@ namespace GenshinImpactMovementSystem
             stateMachine.Player.Input.PlayerActions.Movement.canceled -= OnMovementCanceled;
         }
 
-        protected Vector3 GetInputMovementDirection()
+        protected Vector3 GetMovementInputDirection()
         {
             return new Vector3(stateMachine.ReusableData.MovementInput.x, 0f, stateMachine.ReusableData.MovementInput.y);
         }
-        protected float GetMovementSpeed()
+        protected float GetMovementSpeed(bool shouldConsiderSlopes = true)
         {
-            return movementData.BaseSpeed * stateMachine.ReusableData.MovementSpeedModifier * stateMachine.ReusableData.MovementOnSlopeSpeedModifier;
+            float movementSpeed = movementData.BaseSpeed * stateMachine.ReusableData.MovementSpeedModifier;
+
+            if (shouldConsiderSlopes )
+            {
+                movementSpeed *= stateMachine.ReusableData.MovementSpeedModifier;
+            }
+
+            return movementSpeed;
         }
         protected Vector3 GetPlayerHorizontalVelocity()
         {
@@ -320,17 +345,24 @@ namespace GenshinImpactMovementSystem
 
             if (movementInput == Vector2.down)
             {
-                SetCameraRecenteringState(cameraVerticalAngle, movementData.BackwardsCameraRecenteringData);
+                SetCameraRecenteringState(cameraVerticalAngle, stateMachine.ReusableData.BackwardsCameraRecenteringData);
 
                 return;
             }
 
-            SetCameraRecenteringState(cameraVerticalAngle, movementData.SidewaysCameraRecenteringData);
+            SetCameraRecenteringState(cameraVerticalAngle, stateMachine.ReusableData.SidewaysCameraRecenteringData);
         }
 
         protected void EnableCameraRecentering(float waitTime = -1f, float recenteringTime = -1f)
         {
-            stateMachine.Player.CameraUtility.EnableRecentering(waitTime, recenteringTime);
+            float movementSpeed = GetMovementSpeed();
+
+            if (movementSpeed == 0f)
+            {
+                movementSpeed = movementData.BaseSpeed;
+            }
+
+            stateMachine.Player.CameraUtility.EnableRecentering(waitTime, recenteringTime, movementData.BaseSpeed, movementSpeed);
         }
 
         protected void DisableCameraRecentering()
@@ -362,6 +394,11 @@ namespace GenshinImpactMovementSystem
             stateMachine.ReusableData.ShouldWalk = !stateMachine.ReusableData.ShouldWalk;
         }
 
+        protected virtual void OnMovementCanceled(InputAction.CallbackContext context)
+        {
+            DisableCameraRecentering();
+        }
+
         private void OnMouseMovementStarted(InputAction.CallbackContext context)
         {
             UpdateCameraRecenteringState(stateMachine.ReusableData.MovementInput);
@@ -370,11 +407,6 @@ namespace GenshinImpactMovementSystem
         private void OnMovementPerformed(InputAction.CallbackContext context)
         {
             UpdateCameraRecenteringState(context.ReadValue<Vector2>());
-        }
-
-        private void OnMovementCanceled(InputAction.CallbackContext context)
-        {
-            DisableCameraRecentering();
         }
         #endregion
     }

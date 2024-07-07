@@ -22,6 +22,12 @@ namespace GenshinImpactMovementSystem
             CapsuleColliderData = new CapsuleColliderData();
 
             CapsuleColliderData.Intialize(gameObject);
+
+            OnInitialize();
+        }
+
+        protected virtual void OnInitialize()
+        {
         }
 
         public void CalculateCapsuleColliderDimensions()
