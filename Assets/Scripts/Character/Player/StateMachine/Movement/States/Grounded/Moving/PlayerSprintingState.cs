@@ -24,9 +24,11 @@ namespace GenshinImpactMovementSystem
         #region IState
         public override void Enter()
         {
+            stateMachine.ReusableData.MovementSpeedModifier = sprintData.SpeedModifier;
+
             base.Enter();
 
-            stateMachine.ReusableData.MovementSpeedModifier = sprintData.SpeedModifier;
+            StartAnimation(stateMachine.Player.AnimationData.SprintParameterHash);
 
             stateMachine.ReusableData.CurrentJumpForce = airborneData.JumpData.StrongForce;
 
@@ -38,6 +40,8 @@ namespace GenshinImpactMovementSystem
         public override void Exit()
         {
             base.Exit();
+
+            StopAnimation(stateMachine.Player.AnimationData.SprintParameterHash);
 
             if ( shouldResetSprintState )
             {
@@ -106,6 +110,8 @@ namespace GenshinImpactMovementSystem
         protected override void OnMovementCanceled(InputAction.CallbackContext context)
         {
             stateMachine.ChangeState(stateMachine.HardStoppingState);
+
+            base.OnMovementCanceled(context);
         }
 
         protected override void OnJumpStarted(InputAction.CallbackContext context)

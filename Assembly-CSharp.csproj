@@ -61,15 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\Stopping\PlayerStopData.cs" />
-    <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\PlayerGroundedData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Landing\PlayerRollingState.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\PlayerGroundedData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Moving\PlayerRunningState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Landing\PlayerLightLandingState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\Layers\PlayerLayerData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\Cameras\PlayerCameraRecenteringData.cs" />
     <Compile Include="Assets\Scripts\Data\Colliders\SlopeData.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\PlayerIdleData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Stopping\PlayerHardStoppingState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Landing\PlayerLandingState.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Data\Animations\PlayerAnimationData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Utilities\Colliders\PlayerCapsuleColliderUtility.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\States\Grounded\Landing\PlayerRollData.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\Colliders\PlayerTriggerColliderData.cs" />
@@ -104,6 +106,7 @@
     <Compile Include="Assets\Scripts\Character\Player\Data\ScriptableObjects\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\Utilities\Colliders\CapsuleColliderUtility.cs" />
     <Compile Include="Assets\Scripts\Character\Player\Data\States\Airborne\PlayerJumpData.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\Utilities\Animations\PlayerAnimationEventTrigger.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Airborne\PlayerAirborneState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Grounded\Stopping\PlayerLightStoppingState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\StateMachine\Movement\States\Airborne\PlayerFallingState.cs" />

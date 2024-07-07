@@ -13,9 +13,9 @@ namespace GenshinImpactMovementSystem
         #region IState Methods
         public override void Enter()
         {
-            base.Enter();
-
             stateMachine.ReusableData.MovementSpeedModifier = 0f;
+
+            base.Enter();
 
             stateMachine.ReusableData.CurrentJumpForce = airborneData.JumpData.StationaryForce;
 
@@ -32,6 +32,18 @@ namespace GenshinImpactMovementSystem
             }
 
             OnMove();
+        }
+
+        public override void PhysicsUpdate()
+        {
+            base.PhysicsUpdate();
+
+            if (!IsMovingHorizontally())
+            {
+                return;
+            }
+
+            ResetVelocity();
         }
 
         public override void OnAnimationTransitionEvent()
